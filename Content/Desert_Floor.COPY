@@ -1,0 +1,63 @@
+Begin Object Class=/Script/Engine.Material Name="Desert_Floor"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'"/Game/ThirdPersonBP/Maps/Materials/sgfodj1a_8K_Roughness.sgfodj1a_8K_Roughness"'
+      SamplerType=SAMPLERTYPE_Masks
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=C1F673F049C66265D749EA9338162ACB
+      Material=Material'"Desert_Floor"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/ThirdPersonBP/Maps/Materials/sgfodj1a_8K_Normal.sgfodj1a_8K_Normal"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-336
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=C472947D4CE4F3EEA7EFFDB00A620C3C
+      Material=Material'"Desert_Floor"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.812500,G=0.414624,B=0.130935,A=0.000000)
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=832F4408420F0446EB8BE8AA3A82F36A
+      Material=Material'"Desert_Floor"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.100000
+      MaterialExpressionEditorX=-43
+      MaterialExpressionEditorY=122
+      MaterialExpressionGuid=D2710FA345D9DE02B1820D9D063BF8D8
+      Material=Material'"Desert_Floor"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"')
+   Specular=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_0"')
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithStaticLighting=True
+   EditorX=192
+   Expressions(0)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(3)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=780A83B54225C82D050ECCABD8D81EA0
+   ReferencedTextureGuids(0)=935319B5447FCF1E0FD0F89672139E3C
+   ReferencedTextureGuids(1)=0C6640C2457517FB157AC29AF61DA637
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="sgfodj1a_8K_Normal",TextureReference=/Game/ThirdPersonBP/Maps/Materials/sgfodj1a_8K_Normal.sgfodj1a_8K_Normal)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="sgfodj1a_8K_Roughness",TextureReference=/Game/ThirdPersonBP/Maps/Materials/sgfodj1a_8K_Roughness.sgfodj1a_8K_Roughness)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=334DC9C14B20429A2B527B859B90C777
+End Object
